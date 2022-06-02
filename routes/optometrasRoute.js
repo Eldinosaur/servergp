@@ -1,9 +1,9 @@
-//Rutas para el modulo Agencia
+//Rutas para el modulo Optometras
 const express = require('express')
 const router = express.Router()
 const optometrasController = require('../controllers/optometrasController')
 
-//api/agencias
+//api/optometras
 router.post('/', optometrasController.addOptometra)
 router.get('/', optometrasController.loadOptometras)
 router.get('/:id', optometrasController.loadOptometra)

@@ -1,9 +1,9 @@
-//Rutas para el modulo Agencia
+//Rutas para el modulo Consultas
 const express = require('express')
 const router = express.Router()
 const consultasController = require('../controllers/consultasController')
 
-//api/
+//api/consultas
 router.post('/', consultasController.addConsulta)
 router.get('/', consultasController.loadConsultas)
 router.get('/:id', consultasController.loadConsulta)

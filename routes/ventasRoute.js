@@ -1,9 +1,9 @@
-//Rutas para el modulo Agencia
+//Rutas para el modulo Ventas
 const express = require('express')
 const router = express.Router()
 const ventasController = require('../controllers/ventasController')
 
-//api/agencias
+//api/ventas
 router.post('/', ventasController.addVenta)
 router.get('/', ventasController.loadVentas)
 router.get('/:id', ventasController.loadVenta)
