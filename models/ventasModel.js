@@ -12,7 +12,7 @@ const VentaSchema = mongoose.Schema({
         type:String,
         required:true
     },
-    fecha:{
+    fechaventa:{
         type:Date,
         required:true
     },

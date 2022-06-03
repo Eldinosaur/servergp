@@ -15,7 +15,7 @@ exports.addOptometra = async(request, response) => {
 
 exports.loadOptometras = async(request, response) => {
     try{
-        const optometras = await optometra.find()
+        const optometras = await Optometra.find()
         response.json(optometras)
 
     }catch(error){
