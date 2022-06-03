@@ -12,6 +12,10 @@ const VentaSchema = mongoose.Schema({
         type:String,
         required:true
     },
+    fecha:{
+        type:Date,
+        required:true
+    },
     descripcion:{
         type:String,
         required:true

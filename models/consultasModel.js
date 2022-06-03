@@ -12,6 +12,10 @@ const ConsultaSchema = mongoose.Schema({
         type:String,
         required:true
     },
+    fecha:{
+        type:Date,
+        required:true
+    },
     diagnostico:{
         type:String,
         required:true
